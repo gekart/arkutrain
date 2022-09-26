@@ -10,4 +10,4 @@ COPY index.html project/templates/index.html
 RUN pip install -r project/requirements.txt
 EXPOSE 5000
 
-CMD python app.py
+CMD python project/app.py
